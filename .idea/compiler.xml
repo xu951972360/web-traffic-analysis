@@ -7,17 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tracker-logServer" />
-        <module name="weblog-preparser" />
-        <module name="frontend" />
         <module name="spark-preparser-etl" />
+        <module name="metadata" />
+        <module name="frontend" />
+        <module name="spark-sessionization-etl" />
+        <module name="weblog-parser" />
+        <module name="weblog-preparser" />
+        <module name="iplocation-parser" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="backend" target="8" />
-      <module name="frontend" target="8" />
+      <module name="backend" target="1.8" />
+      <module name="frontend" target="1.8" />
+      <module name="iplocation-parser" target="1.8" />
+      <module name="metadata" target="1.8" />
       <module name="spark-preparser-etl" target="1.8" />
-      <module name="tracker-logServer" target="8" />
-      <module name="weblog-preparser" target="8" />
+      <module name="spark-sessionization-etl" target="1.8" />
+      <module name="tracker-logServer" target="1.8" />
+      <module name="weblog-parser" target="1.8" />
+      <module name="weblog-preparser" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

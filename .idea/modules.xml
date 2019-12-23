@@ -4,9 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/backend/backend.iml" filepath="$PROJECT_DIR$/backend/backend.iml" />
       <module fileurl="file://$PROJECT_DIR$/frontend/frontend.iml" filepath="$PROJECT_DIR$/frontend/frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/iplocation-parser/iplocation-parser.iml" filepath="$PROJECT_DIR$/backend/iplocation-parser/iplocation-parser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/metadata/metadata.iml" filepath="$PROJECT_DIR$/backend/metadata/metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/spark-preparser-etl/spark-preparser-etl.iml" filepath="$PROJECT_DIR$/backend/spark-preparser-etl/spark-preparser-etl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/spark-sessionization-etl/spark-sessionization-etl.iml" filepath="$PROJECT_DIR$/backend/spark-sessionization-etl/spark-sessionization-etl.iml" />
       <module fileurl="file://$PROJECT_DIR$/tracker-logServer/tracker-logServer.iml" filepath="$PROJECT_DIR$/tracker-logServer/tracker-logServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/web-traffic-analysis.iml" filepath="$PROJECT_DIR$/.idea/web-traffic-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/weblog-parser/weblog-parser.iml" filepath="$PROJECT_DIR$/backend/weblog-parser/weblog-parser.iml" />
       <module fileurl="file://$PROJECT_DIR$/backend/weblog-preparser/weblog-preparser.iml" filepath="$PROJECT_DIR$/backend/weblog-preparser/weblog-preparser.iml" />
     </modules>
   </component>
